@@ -8,6 +8,11 @@ A template for writing your next [Solid-js](https://solidjs.com) app in [F#](htt
 
 Write your F# app using [Feliz.JSX.Solid](https://github.com/fable-compiler/Feliz.JSX) and [Feliz DSL](https://zaid-ajaj.github.io/Feliz/).  
 
+## Setup (.NET +  F#)
+
+* install latest [dotnet-sdk](https://dotnet.microsoft.com/en-us/), e.g. on mac `brew install dotnet-sdk`.  
+* install [ionide extension](https://ionide.io/) for vs-code or [the vim extension](https://github.com/ionide/Ionide-vim), other F# enabled editors like JB Rider or MSVS support F# natively as well and offer free community versions. 
+
 ## Go 👨🏽‍🔧
 
 ```bash
