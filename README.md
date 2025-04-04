@@ -28,3 +28,7 @@ Or use [bun](https://bun.sh/) it's blazing fast!
 ## How does this all work? 🐉
 
 Thanks to the awesome [vite-plugin-fable](https://fable.io/vite-plugin-fable/), check it out and contribute or join [F# discord](https://discord.com/channels/196693847965696000/196695876054286336).
+
+### Trick for vitest in solidjs
+
+had to be aware of this [server inline trick](https://github.com/vitest-dev/vitest/discussions/6537) in [vitest.config.ts](./vitest.config.ts)

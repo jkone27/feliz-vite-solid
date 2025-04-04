@@ -112,6 +112,10 @@ module Test =
 
     Vi.describe("render app and increment count", fun () ->
 
+        Vi.afterAll(fun () ->
+            Dom.cleanup()
+        )
+
         let element = Dom.render(App())
             
         Vi.test("should render initial count", fun () ->
