@@ -1,5 +1,7 @@
 # Vite Feliz Solid ⚡️
 
+![CI](https://github.com/jkone27/vite-feliz-solid/actions/workflows/ci.yml/badge.svg)
+
 ![vite feliz solid in action](image.png)
 
 A template for writing your next [Solid-js](https://solidjs.com) app in [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) with seamless [vite](https://vite.dev/guide/) integration.
