@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Include="App.fs" />
+    <Compile Include="App.test.fs" />
     <Compile Include="Index.fs" />
   </ItemGroup>
 
