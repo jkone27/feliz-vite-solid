@@ -19,6 +19,7 @@ Write your F# app using [Feliz.JSX.Solid](https://github.com/fable-compiler/Feli
 
 ```bash
 > npm i  
+> npm run test
 > npm run dev
 ```
 
