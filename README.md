@@ -1,6 +1,6 @@
 # Vite Feliz Solid ⚡️
 
-![CI](https://github.com/jkone27/vite-feliz-solid/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/jkone27/feliz-vite-solid/actions/workflows/ci.yml/badge.svg)
 
 ![vite feliz solid in action](image.png)
 
