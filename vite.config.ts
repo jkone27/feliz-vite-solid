@@ -27,10 +27,6 @@ export default defineConfig({
   test: {
     include: ["**/*.{test,spec}.{js,jsx,ts,tsx,fs}"],
     exclude: [...configDefaults.exclude, "dist", ".idea", ".git", ".cache"],
-    environment: "jsdom",
-    transform: {
-      "^.+\\.fs$": "vite-plugin-fable",
-    },
-    conditions: ["development", "browser"]
+    environment: "jsdom"
   },
 });
