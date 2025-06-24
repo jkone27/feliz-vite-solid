@@ -32,3 +32,7 @@ Thanks to the awesome [vite-plugin-fable](https://fable.io/vite-plugin-fable/), 
 ### Trick for vitest in solidjs
 
 had to be aware of this [server inline trick](https://github.com/vitest-dev/vitest/discussions/6537) in [vitest.config.ts](./vitest.config.ts)
+
+### Notes for npm users ⚠️
+
+the official plugin for solidjs doesnt support vite7 yet, while this works with bun, it complains in install with npm. if you are using npm u might have to downgrade vite-plugin-fable to 1.1.1 and vite to 6 accordingly, so as to match solidjs vite plugin requirements (but is expected to be updated in the near future)
