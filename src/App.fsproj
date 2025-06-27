@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="./components/Counter.fs" />
     <Compile Include="App.fs" />
+    <Compile Include="Testing.fs" />
     <Compile Include="App.test.fs" />
     <Compile Include="Index.fs" />
   </ItemGroup>
