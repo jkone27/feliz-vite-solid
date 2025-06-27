@@ -19,18 +19,12 @@ export default defineConfig({
     sourcemap: "inline",
     target: "esnext"
   },
-  define: {
-    // required if u have: `process is undefined`
-    // while loading react jsoncomponents
-    "process.env": {},
-  },
   test: {
     include: ["**/*.{test,spec}.{js,jsx,ts,tsx,fs}"],
     exclude: [...configDefaults.exclude, "dist", ".idea", ".git", ".cache"],
     environment: "jsdom",
-    transform: {
-      "^.+\\.fs$": "vite-plugin-fable",
-    },
-    conditions: ["development", "browser"]
-  },
+    server: {
+      deps: { inline: true }
+    }
+  }
 });
