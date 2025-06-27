@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run --environment jsdom"
   },
   "dependencies": {
     "solid-js": "^1.9.5"

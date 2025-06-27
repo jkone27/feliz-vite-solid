@@ -10,6 +10,9 @@ let viteLogo: string = importDefault "./assets/vite.svg"
 let solidLogo: string = importDefault "./assets/solid.svg"
 
 
+let Counter() : JSX.Element = import "Counter" "./components/Counter.fs"
+
+
 [<JSX.Component>]
 let App() =
     let count, setCount = Solid.createSignal(0)
@@ -51,22 +54,7 @@ let App() =
             ]
         ]
         Html.h1 "Vite + Solid + Feliz"
-        Html.div [
-            Attr.className "card"
-            Html.children [
-                Html.button [
-                    Ev.onClick (fun _ -> setCount (count() + 1))
-                    Html.children [
-                        Html.text $"count is {count()}"
-                    ]
-                ]
-                Html.div [
-                    Html.text "Edit "
-                    Html.code "src/App.fs"
-                    Html.text " and save to test HMR"
-                ]
-            ]
-        ]
+        Counter()
         Html.p [
             Attr.className "read-the-docs"
             Html.children [
